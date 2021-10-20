@@ -8,14 +8,14 @@
     font-weight: bold;
     font-size: 25px;
     text-decoration: none;
-    color: #070000;
+    color: #1B1C1E;
    
     margin-left: 140px;
 }
 
 .right a {
     text-decoration: none;
-    color: #070000;
+    color: #1B1C1E;
     font-family: 'Montserrat', sans-serif;
    
 }
@@ -95,52 +95,15 @@ main {
     justify-content: center;
 
 }
-.rarticles p{
+.rarticles h1{
     margin-top:780px;
-    font-family:'Kaisei HarunoUmi', serif;
+   
+    color:#1B1C1E;
     font-size: 50px;
     font-weight: bold;
     position: absolute;
     text-align: center;
 }
-
-/*.first {
-    width: 100%;
-    height: 400px;
-    background-color: gray;
-    overflow: auto;
-    margin-top: 930px;
-    
-    }
-
-#box1 {
-    height: 300px;
-    width: 200px;
-    border-color: hotpink;
-    border-width: 5px;
-    
-}
-*/
-
-/*.post-wrapper {
-    margin-top: 900px;
-    width: 100%;
-    height: 350px;
-    
-}
-.post {
-    border:2px solid gray;
-  background: lightblue;
-  width: 300px;
-display: inline-block;
-height: 350px;
-justify-content: space-evenly;
-margin: 40px;
-}
-
-.anxiety {
-    object-fit: cover;
-}*/
 
 .first-photo {
     width: 300px;
@@ -151,7 +114,7 @@ margin: 40px;
 align-content: center;
 border-radius:30px;
 box-shadow:10px 10px 30px lightgray;
-margin-top: 920px;
+margin-top: 900px;
 
 }
 
@@ -168,20 +131,21 @@ margin-top: 920px;
     position: absolute;
     top: 170px;
     font-size: 25px;
-    font-family: 'Kaisei HarunoUmi', serif;
-    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    color:#313131;
 text-align: left;
 width: 90%;
 left: 5%;
 right: 5%;
-top: 240px;
+top: 245px;
    line-height: 30px;
 }
 .first-photo > p {
     position: absolute;
-    top:340px;
+    top:345px;
     font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
+    color: 
     width: 90%;
 left: 5%;
 right: 5%;
@@ -192,7 +156,7 @@ right: 5%;
     top: 400px;
     text-decoration: none;
     color: #5898FF;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 13px;
     width: 90%;
     left: 5%;
@@ -207,7 +171,7 @@ right: 5%;
 align-content: center;
 border-radius:30px;
 box-shadow:10px 10px 30px lightgray;
-margin-top: 920px;
+margin-top: 900px;
 
 }
 
@@ -224,20 +188,20 @@ margin-top: 920px;
     position: absolute;
     top: 170px;
     font-size: 25px;
-    font-family: 'Kaisei HarunoUmi', serif;
-    font-weight: bold;
+  font-family: 'Inter', sans-serif;
+    color:#313131;
 text-align: left;
 width: 90%;
 left: 5%;
 right: 5%;
-top: 240px;
+top: 245px;
    line-height: 30px;
 }
 .second-photo > p {
     position: absolute;
-    top:340px;
+    top:345px;
     font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
+     font-family: 'Inter', sans-serif;
     width: 90%;
 left: 5%;
 right: 5%;
@@ -248,7 +212,7 @@ right: 5%;
     top: 400px;
     text-decoration: none;
     color: #5898FF;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 13px;
     width: 90%;
     left: 5%;
@@ -263,7 +227,7 @@ right: 5%;
 align-content: center;
 border-radius:30px;
 box-shadow:10px 10px 30px lightgray;
-margin-top: 920px;
+margin-top: 900px;
 
 }
 
@@ -280,20 +244,20 @@ margin-top: 920px;
     position: absolute;
     top: 170px;
     font-size: 25px;
-    font-family: 'Kaisei HarunoUmi', serif;
-    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    color:#313131;
 text-align: left;
 width: 90%;
 left: 5%;
 right: 5%;
-top: 240px;
+top: 245px;
    line-height: 30px;
 }
 .third-photo > p {
     position: absolute;
-    top:340px;
+    top:345px;
     font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     width: 90%;
 left: 5%;
 right: 5%;
@@ -304,7 +268,7 @@ right: 5%;
     top: 400px;
     text-decoration: none;
     color: #5898FF;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 13px;
     width: 90%;
     left: 5%;
@@ -322,66 +286,21 @@ right: 5%;
     justify-content: center;
 }
 
-.decors p {
-    margin-top:100px;
-    font-family:'Kaisei HarunoUmi', serif;
+.decors h1 {
+    margin-top:120px;
+    color:#1B1C1E;
     font-size: 50px;
-    font-weight: bold;
+  
     position: absolute;
     text-align: center;
 }
 
-/*.slider {
-     margin-top: 250px;
-     width: auto;
-    display: flex;
-    justify-content: space-between;
-    margin-right: 50px;
-    overflow: auto;
-    
-}
-
-.slider img {
-    width: inherit;
-    height:300px;
-} 
-
-.slider {
-    display:flex;
-    flex-direction: row;
-    width: fit-content;
-    margin-top: 250px;
-}
-
-.box img{
-    width: 275px;
-    height: 400px;
-    margin: 10px 0;
-    box-sizing: border-box;
-
-}
-
-.room1 {
-    object-fit: cover;
-    
-}
-.room2 {
-    object-fit: cover;
-    
-}
-.room3 {
-    object-fit: cover;
-}
-.room4 {
-    object-fit: cover;
-}
-*/
 
 .images-container {
     display:flex;
     
     width: fit-content;
-    margin-top: 250px;
+    margin-top: 240px;
 position:relative;
 
 
@@ -491,7 +410,7 @@ border:0px;
 }
 
 .button-one:hover {
-    background-color: black;
+    background-color: #1B1C1E;
     color:white;
 }
 
@@ -507,15 +426,15 @@ right: 835px;
 padding-left: 20px;
 padding-right: 20px;
 text-align: center;
-background-color:white;
+background-color:#fcfcfc;
 line-height: 33px;
 padding-left:30px;
 padding-right: 30px;
 border:0px;
 }
 .button-two:hover {
-    background-color: black;
-    color:white;
+    background-color:#1B1C1E;
+    color:#fcfcfc;
 }
 
 .button-three{
@@ -538,7 +457,7 @@ border:0px;
 }
 
 .button-three:hover {
-    background-color: black;
+    background-color: #1B1C1E;
     color:white;
 }
 
@@ -562,27 +481,22 @@ border:0px;
 }
 
 .button-four:hover {
-    background-color: black;
+    background-color: #1B1C1E;
     color:white;
 }
 
 .footer {
     height: 200px;
     background-color:#E5E5E5;
-    margin-top: 100px;
+    margin-top: 120px;
     width: 100%;
     position: relative;
     }
 
-/*#footer-content {
-    margin-left: 140px;
-    margin-right:140px;
-    
-}*/
  
 .links li a {
     text-decoration: none;
-    color: black;
+    color: #1B1C1E;
 
     position:relative;
     top:50px;
