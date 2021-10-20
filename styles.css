@@ -31,7 +31,7 @@ header {
     align-items: center;
     height:59px;
     background-color: #FAFAFA;
-    
+    position: sticky;
 }
 
 .right a {
@@ -142,18 +142,179 @@ margin: 40px;
     object-fit: cover;
 }*/
 
-.articles img{
+.first-photo {
     width: 300px;
-  height: 350px;
-  border: 1px solid #000;
-  margin: 10px 0;
-  margin-top: 950px;
- 
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+align-content: center;
+border-radius:30px;
+box-shadow:10px 10px 30px lightgray;
+margin-top: 920px;
+
 }
 
-.anxiety {
-    object-fit: contain;
-    
+.first-photo > img {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    object-fit: cover ;
+    border-radius: 30px;
+
+}
+
+.first-photo > h6 {
+    position: absolute;
+    top: 170px;
+    font-size: 25px;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-weight: bold;
+text-align: left;
+width: 90%;
+left: 5%;
+right: 5%;
+top: 240px;
+   line-height: 30px;
+}
+.first-photo > p {
+    position: absolute;
+    top:340px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    width: 90%;
+left: 5%;
+right: 5%;
+}
+
+.first-photo > a {
+    position: absolute;
+    top: 400px;
+    text-decoration: none;
+    color: #5898FF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    width: 90%;
+    left: 5%;
+}
+
+.second-photo {
+    width: 300px;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+align-content: center;
+border-radius:30px;
+box-shadow:10px 10px 30px lightgray;
+margin-top: 920px;
+
+}
+
+.second-photo > img {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    object-fit: cover ;
+    border-radius: 30px;
+
+}
+
+.second-photo > h6 {
+    position: absolute;
+    top: 170px;
+    font-size: 25px;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-weight: bold;
+text-align: left;
+width: 90%;
+left: 5%;
+right: 5%;
+top: 240px;
+   line-height: 30px;
+}
+.second-photo > p {
+    position: absolute;
+    top:340px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    width: 90%;
+left: 5%;
+right: 5%;
+}
+
+.second-photo > a {
+    position: absolute;
+    top: 400px;
+    text-decoration: none;
+    color: #5898FF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    width: 90%;
+    left: 5%;
+}
+
+.third-photo {
+    width: 300px;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+align-content: center;
+border-radius:30px;
+box-shadow:10px 10px 30px lightgray;
+margin-top: 920px;
+
+}
+
+.third-photo > img {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    object-fit: cover ;
+    border-radius: 30px;
+
+}
+
+.third-photo > h6 {
+    position: absolute;
+    top: 170px;
+    font-size: 25px;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-weight: bold;
+text-align: left;
+width: 90%;
+left: 5%;
+right: 5%;
+top: 240px;
+   line-height: 30px;
+}
+.third-photo > p {
+    position: absolute;
+    top:340px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    width: 90%;
+left: 5%;
+right: 5%;
+}
+
+.third-photo > a {
+    position: absolute;
+    top: 400px;
+    text-decoration: none;
+    color: #5898FF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    width: 90%;
+    left: 5%;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .decors {
@@ -220,8 +381,10 @@ margin: 40px;
     display:flex;
     
     width: fit-content;
-    margin-top: 235px;
+    margin-top: 250px;
 position:relative;
+
+
 }
 
 .card {

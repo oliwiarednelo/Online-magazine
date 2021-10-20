@@ -46,9 +46,80 @@ header img {
 main {
     margin-left: 140px;
     margin-right: 140px;
+    
 }
 
 body {
     background-color: #FAFAFA;
 }
 
+.landing-page {
+  text-align: center;
+  border-bottom: gray 2px solid;
+    }
+
+.top img{
+   width: 230px;
+   margin-top: 30px;
+margin-bottom: 25px;
+text-align: center;
+}
+
+.bottom img {
+    width: 250px;
+    margin-top: 45px;
+}
+
+.landing-page p {
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-weight: bold; 
+    font-size: 50px;
+    line-height: 55px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.footer {
+    height: 200px;
+    background-color:#E5E5E5;
+    margin-top: 100px;
+    width: 100%;
+    position: relative;
+    }
+
+/*#footer-content {
+    margin-left: 140px;
+    margin-right:140px;
+    
+}*/
+ 
+.links li a {
+    text-decoration: none;
+    color: black;
+
+    position:relative;
+    top:50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+   margin-left: 140px;
+}
+
+.icons img {
+    width: 50px;
+margin-left:20px;
+}
+
+.icons {
+position: absolute;
+top:50px;
+margin-left: 1150px;
+}
+
+
+.arrow img {
+margin-top: 600px;
+position:absolute;
+width: 30px;
+margin-left: 1130px;
+
+}
