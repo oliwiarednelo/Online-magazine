@@ -92,16 +92,16 @@ top: 270px;
     flex-direction: row;
 }
 .recipes {
-   height: 500px;
+   height: 650px;
    width: 420px;
    overflow: auto;
    position: relative;
-   top:300px;
+   top:220px;
     border-radius: 30px;
     display: flex;
     flex-direction: row;
     position: relative;
-box-shadow:5px 5px 30px #b9bbc2;
+
 }
 
 
@@ -152,13 +152,100 @@ font-family: 'inter', sans-serif;
 font-size: 17px;
 }
 
+#everything2 {
+    display: flex;
+    flex-direction: row;
+}
+.recipes2 {
+   height: 630px;
+   width: 420px;
+   overflow: auto;
+   position: relative;
+   top:130px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+}
+
+
+.recipes2 > .pasta > img{
+    object-fit: cover;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+
+}
+.text2 {
+    margin-left:80px;
+}
+.text2 > .name2 > h4 {
+position:absolute;
+top: 1170px;
+font-family: 'Inter', sans-serif;
+font-size: 35px;
+}
+
+.ingredients2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 350px;
+    font-size: 20px;
+    font-family: 'inter', sans-serif;
+   
+}
+
+.list2 {
+margin-left: 60px;
+font-size: 17px;
+}
+
+
+
+.instructions2 {
+font-family: 'inter', sans-serif;
+font-size: 20px;
+margin-top: 40px;
+margin-bottom: 20px;
+}
+
+.instext2 {
+    top:820px;
+line-height: 23px;
+font-family: 'inter', sans-serif;
+font-size: 17px;
+}
+
+.share {
+    width: 100%;
+    border-bottom: 1px #1B1C1E solid;
+    border-top: 1px #1B1C1E solid;
+height: 200px;
+margin-top: 200px;
+}
+
+.share p {
+    font-family: 'Inter', sans-serif;
+    color: #838383;
+    font-size: 20px;
+    font-weight:regular ;  
+    margin-top: 40px;
+}
+
+.some img{
+    width: 50px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
 .footer {
     height: 200px;
     background-color:#E5E5E5;
     bottom: 0;
     width: 100%;
     position: relative;
-    top:400px;
+    top:100px;
     }
  
 .links li a {
