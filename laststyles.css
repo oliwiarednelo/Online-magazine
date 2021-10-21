@@ -92,7 +92,7 @@ top: 270px;
     flex-direction: row;
 }
 .recipes {
-   height: 600px;
+   height: 500px;
    width: 420px;
    overflow: auto;
    position: relative;
@@ -101,7 +101,7 @@ top: 270px;
     display: flex;
     flex-direction: row;
     position: relative;
-
+box-shadow:5px 5px 30px #b9bbc2;
 }
 
 
@@ -114,7 +114,6 @@ top: 270px;
 }
 .text {
     margin-left:80px;
-    margin-top: 600px;
 }
 .text > .name > h4 {
 position:absolute;
@@ -134,22 +133,21 @@ font-size: 35px;
 
 .list {
 margin-left: 60px;
+font-size: 17px;
 }
 
 
 
 .instructions {
-top:780px;
-position: absolute;
-left: 642px;
 font-family: 'inter', sans-serif;
 font-size: 20px;
+margin-top: 40px;
+margin-bottom: 20px;
 }
 
 .instext {
     top:820px;
-position: absolute;
-left: 642px;
+line-height: 23px;
 font-family: 'inter', sans-serif;
 font-size: 17px;
 }
