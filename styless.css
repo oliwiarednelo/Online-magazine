@@ -22,7 +22,7 @@
 
 .right {
    
-    margin-right: 140px;
+    margin-right: 124px;
 }
 
 header {
@@ -43,6 +43,38 @@ header img {
     margin-right:140px;
 }
 
+.dropbtn {
+    background-color: #FAFAFA;
+       font-size: 16px;
+       border: none;
+   margin-top:0px;
+   font-family: 'Montserrat', sans-serif;
+   
+     }
+   
+     .dropdown {
+       position: relative;
+       display: inline-block;
+     }
+   
+     .dropdown-content {
+       display: none;
+       position: absolute;
+       background-color: #f1f1f1;
+       min-width: 400px;
+   
+       z-index: 1;
+     }
+     .dropdown-content a {
+       color: black;
+       padding: 12px ;
+       text-decoration: none;
+       display: block;
+     }
+   
+     .dropdown-content a:hover {background-color: lavender }
+     .dropdown:hover .dropdown-content {display: block;}
+   
 main {
     margin-left: 140px;
     margin-right: 140px;
