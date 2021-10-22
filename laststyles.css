@@ -123,6 +123,10 @@ top: 270px;
     display: flex;
     flex-direction: row;
 }
+#everything2 {
+    display: flex;
+    flex-direction: row;
+}
 .recipes {
    height: 650px;
    width: 420px;

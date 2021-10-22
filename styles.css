@@ -120,6 +120,16 @@ z-index: 0;
     width: 30px;
 }
 
+.link a{
+    position: absolute;
+    margin-top: 650px;
+    z-index: 1;
+    text-decoration:none ;
+    color: #FAFAFA;
+    margin-left: 325px;
+    font-family: 'Montserrat', sans-serif;
+}
+
 main {
     margin-left: 140px;
     margin-right: 140px;

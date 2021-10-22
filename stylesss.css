@@ -133,6 +133,19 @@ margin-right: 100px;
     justify-content: center;
 }
 
+#everything2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%%;
+    justify-content: center;
+}
+
+#everything3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%%;
+    justify-content: center;
+}
 .section {
     width: 80%;
 }
