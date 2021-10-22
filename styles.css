@@ -189,7 +189,6 @@ top: 245px;
     top:345px;
     font-size: 13px;
     font-family: 'Inter', sans-serif;
-    color: 
     width: 90%;
 left: 5%;
 right: 5%;
@@ -435,7 +434,7 @@ line-height: 33px;
 }
 .button-one{
     font-family: 'Montserrat', sans-serif;
-    font-weight:regular;
+    font-weight:400;
  font-size:13px ;
 position: absolute;
 z-index: 1;
@@ -460,7 +459,7 @@ border:0px;
 
 .button-two{
     font-family: 'Montserrat', sans-serif;
-    font-weight:regular;
+    font-weight:400;
  font-size:13px ;
 position: absolute;
 z-index: 1;
@@ -483,7 +482,7 @@ border:0px;
 
 .button-three{
     font-family: 'Montserrat', sans-serif;
-    font-weight:regular;
+    font-weight:400;
  font-size:13px ;
 position: absolute;
 z-index: 1;
@@ -507,7 +506,7 @@ border:0px;
 
 .button-four{
     font-family: 'Montserrat', sans-serif;
-    font-weight:regular;
+    font-weight:400;
  font-size:13px ;
 position: absolute;
 z-index: 1;
