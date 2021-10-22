@@ -84,6 +84,7 @@ filter:brightness(50%);
 position: absolute;
 object-fit: cover;
 z-index: 0;
+width: 100%;
 }
 
 .overlay{
@@ -100,6 +101,7 @@ z-index: 0;
 .video {
     display: flex;
     justify-content: center;
+    
 }
 
 .overlay2 {
